@@ -1,0 +1,260 @@
+
+/** testimonial **/
+
+.testimonial {
+    padding-top: 80px;
+    padding-bottom: 142px;
+    background: rgb(154, 20, 91);
+    background: linear-gradient(62deg, rgba(154, 20, 91, 1) 12%, rgba(149, 20, 109, 1) 19%, rgba(137, 21, 160, 1) 30%, rgba(127, 22, 202, 1) 100%);
+}
+
+.testimonial .titlepage {
+    padding-bottom: 20px;
+}
+
+.testimonial .titlepage h2 {
+    color: #fff;
+}
+
+.testimonial .titlepage p {
+    color: #fff;
+}
+
+.posi_in {
+    position: inherit;
+    padding: 0;
+}
+
+.testomoniam_text {
+    background: #fff;
+    padding: 40px 50px;
+    border-radius: 70px;
+    position: relative;
+    margin-top: 64px;
+}
+
+.testomoniam_text::before {
+    position: absolute;
+    content: "";
+    top: -64px;
+    left: 0;
+    right: 0;
+    background: url(../images/test.png);
+    width: 88px;
+    height: 64px;
+    margin: 0 auto;
+}
+
+.testomoniam_text p {
+    color: #000000;
+    padding: 10px 0;
+    display: block;
+}
+
+#testimo .carousel-control-next,
+#testimo .carousel-control-prev {
+    display: none;
+}
+
+.testimonial .carousel-indicators {
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    bottom: -60px;
+}
+
+.testimonial .carousel-indicators li {
+    width: 29px;
+    height: 29px;
+    border-radius: 20px;
+    display: inline-block;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+.testimonial .carousel-indicators .active {
+    background-color: #0c0909;
+}
+
+.testomoniam_text {
+    padding: 40px 25px;
+}
+
+/** end testimonial **/
+
+
+
+
+
+
+
+
+
+
+/** footer **/
+
+.footer {
+    background: #450275;
+    padding-top: 90px;
+    position: relative;
+}
+
+.footer::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    background: url(../images/footer.jpg);
+    height: 251px;
+    top: -115px;
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+.logo_footer {
+    margin-bottom: 15px;
+    display: block;
+}
+
+.Informa h3 {
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 25px;
+    margin-bottom: 15px;
+    margin-top: 30px;
+}
+
+.conta li {
+    font-size: 15px;
+    line-height: 29px;
+    color: #ffffff;
+}
+
+.helpful {
+    padding-top: 50px;
+}
+
+.helpful ul li {
+    display: inline-block;
+    padding-right: 30px;
+}
+
+.helpful ul li:last-child {
+    padding-right: 0;
+}
+
+.helpful ul li a {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 15px;
+    line-height: 29px;
+}
+
+.helpful ul li a:hover {
+    color: #ff0000;
+}
+
+.conta ul li a {
+    color: #ffffff;
+}
+
+.conta ul li a i {
+    padding-right: 5px;
+}
+
+ul.social_icon {
+    float: left;
+    padding-top: 15px;
+}
+
+ul.social_icon li {
+    display: inline-block;
+    padding-right: 10px;
+}
+
+ul.social_icon li:last-child {
+    padding-right: 0;
+}
+
+ul.social_icon li a {
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    line-height: 33px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+ul.social_icon li a:hover {
+    color: #ff0000;
+    transition: ease-in all 0.7s;
+}
+
+.ente {
+    background: #dbdada;
+    color: #fff;
+    border: inherit;
+    padding: 0 15px;
+    height: 62px;
+    width: 100%;
+    font-size: 17px;
+}
+
+.subs_btn {
+    max-width: 127px;
+    display: inline-block;
+    background: #ff0000;
+    height: 59px;
+    width: 100%;
+    color: #cecdcd;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: normal;
+    transition: ease-in all 0.5s;
+    margin-top: 20px;
+}
+
+.subs_btn:hover {
+    background: #9a145b;
+    transition: ease-in all 0.5s;
+}
+
+.copyright {
+    background: #ffffff;
+    margin-top: 50px;
+}
+
+.copyright p {
+    color: #1d1c1c;
+    padding: 20px 0px;
+}
+
+.copyright a {
+    color: #1d1c1c;
+}
+
+.copyright a:hover {
+    color: #7f16ca;
+}
+
+
+/** end footer **/
+
+/*- - ener page css--*/
+
+.inner_page header {
+    box-shadow: 0 -3px 12px 0px #a540e6;
+    position: inherit;
+    background: #8f100a;
+}
+.inner_page .about {
+    margin:80px 0 190px 0;
+}
+.inner_page .contact {
+    padding-bottom:80px;
+}
+.inner_page .footer {
+    margin-top: 110px;
+}
